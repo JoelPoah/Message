@@ -21,3 +21,9 @@ noBtn.addEventListener("mouseover", () => {
   noBtn.style.left = randomX + "px";
   noBtn.style.top = randomY + "px";
 });
+
+noBtn.addEventListener("click", () => {
+  // if click , alert "no you can't say no"
+  alert("no you can't say no");
+
+});
